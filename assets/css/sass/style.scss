@@ -25,7 +25,7 @@ body {
     color: color(primary);
     background-image: url(/assets/img/bg_tile.png);
     background-repeat: repeat;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     font-size: 16px;
     line-height: 30px;
 }
@@ -82,11 +82,10 @@ footer {
     color: color(white);
     background-color: color(dark_grey);
     border-top: color(accent) 5px solid;
-    position: absolute;
+    position: fixed;
     height: 75px;
     bottom: 0px;
-    left: 0px;
-    right: 0px;
+    width: 100%;
     padding: 20px 0;
 }
 
@@ -167,16 +166,22 @@ footer {
 
 .portfolio {
     list-style: none;
-    display: flex;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+
     &-item {
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        background-color: black;
+
         a {
-            display: flex;
-            flex-direction: row;
             margin: 10px;
             color: color(white);
+            text-decoration: none;
             background-color: color(accent);
-            height: 200px;
-            width: 200px;
         }
     }
 }
