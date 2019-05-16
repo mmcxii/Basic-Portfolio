@@ -109,6 +109,7 @@ footer {
   height: 300px;
   float: left;
   margin-right: 15px;
+  border: #ddd 1px solid;
 }
 
 .contact-form label {
