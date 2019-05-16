@@ -165,23 +165,25 @@ footer {
 }
 
 .portfolio {
-    list-style: none;
-    float: left;
     text-align: center;
-    overflow: hidden;
-    white-space: nowrap;
 
     &-item {
         display: inline-block;
         height: 200px;
-        width: 200px;
+        width: 250px;
         background-color: black;
+        margin: 20px;
 
-        a {
+        &:nth-child(even) {
+            background-color: rebeccapurple;
+        }
+
+        &-caption {
             margin: 10px;
             color: color(white);
             text-decoration: none;
             background-color: color(accent);
+            padding: 5px 10px;
         }
     }
 }
