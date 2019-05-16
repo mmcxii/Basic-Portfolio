@@ -157,18 +157,41 @@ footer {
   display: inline-block;
   height: 200px;
   width: 250px;
-  background-color: black;
   margin: 20px;
 }
 
-.portfolio-item:nth-child(even) {
-  background-color: rebeccapurple;
+.portfolio-item-caption {
+  position: relative;
+  top: 140px;
+  background-color: #4aaaa5;
+  padding: 10px 10px;
+  width: 100%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 22px;
 }
 
-.portfolio-item-caption {
-  margin: 10px;
+.portfolio-item-caption-link {
   color: #fff;
   text-decoration: none;
-  background-color: #4aaaa5;
-  padding: 5px 10px;
+}
+
+.portfolio .hangman {
+  background-image: url(../img/portfolio-thumbnails/thumb1.jpg);
+}
+
+.portfolio .rpg {
+  background-image: url(../img/portfolio-thumbnails/thumb2.jpg);
+}
+
+.portfolio .trivia {
+  background-image: url(../img/portfolio-thumbnails/thumb3.jpg);
+}
+
+.portfolio .infowidget {
+  background-image: url(../img/portfolio-thumbnails/thumb4.jpg);
+}
+
+.portfolio .roshambo {
+  background-image: url(../img/portfolio-thumbnails/thumb5.jpg);
 }

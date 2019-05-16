@@ -171,19 +171,42 @@ footer {
         display: inline-block;
         height: 200px;
         width: 250px;
-        background-color: black;
         margin: 20px;
 
-        &:nth-child(even) {
-            background-color: rebeccapurple;
-        }
-
         &-caption {
-            margin: 10px;
-            color: color(white);
-            text-decoration: none;
+            position: relative;
+            top: 140px;
             background-color: color(accent);
-            padding: 5px 10px;
+            padding: 10px 10px;
+            width: 100%;
+            text-align: center;
+            font-weight: 300;
+            font-size: 22px;
+
+            &-link {
+                color: color(white);
+                text-decoration: none;
+            }
         }
+    }
+
+    .hangman {
+        background-image: url(../img/portfolio-thumbnails/thumb1.jpg);
+    }
+
+    .rpg {
+        background-image: url(../img/portfolio-thumbnails/thumb2.jpg);
+    }
+
+    .trivia {
+        background-image: url(../img/portfolio-thumbnails/thumb3.jpg);
+    }
+
+    .infowidget {
+        background-image: url(../img/portfolio-thumbnails/thumb4.jpg);
+    }
+
+    .roshambo {
+        background-image: url(../img/portfolio-thumbnails/thumb5.jpg);
     }
 }
