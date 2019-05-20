@@ -199,23 +199,10 @@ footer {
         }
     }
 
-    .hangman {
-        background-image: url(../img/portfolio-thumbnails/thumb1.jpg);
-    }
-
-    .rpg {
-        background-image: url(../img/portfolio-thumbnails/thumb2.jpg);
-    }
-
-    .trivia {
-        background-image: url(../img/portfolio-thumbnails/thumb3.jpg);
-    }
-
-    .infowidget {
-        background-image: url(../img/portfolio-thumbnails/thumb4.jpg);
-    }
-
-    .roshambo {
-        background-image: url(../img/portfolio-thumbnails/thumb5.jpg);
+    $thumbs: (hangman, rpg, trivia, infowidget, roshambo);
+    @each $thumb in $thumbs {
+        .#{$thumb} {
+            background: url(../img/portfolio-thumbnails/#{$thumb}.jpg);
+        }
     }
 }

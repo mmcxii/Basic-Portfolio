@@ -186,21 +186,21 @@ footer {
 }
 
 .portfolio .hangman {
-  background-image: url(../img/portfolio-thumbnails/thumb1.jpg);
+  background: url(../img/portfolio-thumbnails/hangman.jpg);
 }
 
 .portfolio .rpg {
-  background-image: url(../img/portfolio-thumbnails/thumb2.jpg);
+  background: url(../img/portfolio-thumbnails/rpg.jpg);
 }
 
 .portfolio .trivia {
-  background-image: url(../img/portfolio-thumbnails/thumb3.jpg);
+  background: url(../img/portfolio-thumbnails/trivia.jpg);
 }
 
 .portfolio .infowidget {
-  background-image: url(../img/portfolio-thumbnails/thumb4.jpg);
+  background: url(../img/portfolio-thumbnails/infowidget.jpg);
 }
 
 .portfolio .roshambo {
-  background-image: url(../img/portfolio-thumbnails/thumb5.jpg);
+  background: url(../img/portfolio-thumbnails/roshambo.jpg);
 }
