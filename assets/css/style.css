@@ -55,7 +55,6 @@ hr {
 
 .navbar-item {
   display: inline;
-  font-size: 18px;
   border-right: #777 1px solid;
 }
 
@@ -64,9 +63,14 @@ hr {
 }
 
 .navbar-link {
+  font-size: 18px;
   text-decoration: none;
   color: #777;
   padding: 5px 10px;
+}
+
+.navbar-link.active {
+  color: #4aaaa5;
 }
 
 footer {

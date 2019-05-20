@@ -68,7 +68,6 @@ hr {
 
     &-item {
         display: inline;
-        font-size: 18px;
         border-right: color(primary) 1px solid;
 
         &:last-child {
@@ -77,9 +76,14 @@ hr {
     }
 
     &-link {
+        font-size: 18px;
         text-decoration: none;
         color: color(primary);
         padding: 5px 10px;
+
+        &.active {
+            color: color(accent);
+        }
     }
 }
 
