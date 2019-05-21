@@ -1,0 +1,24 @@
+.navbar {
+    list-style: none;
+    float: right;
+
+    &-item {
+        display: inline;
+        border-right: color(primary) 1px solid;
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+
+    &-link {
+        font-size: 18px;
+        text-decoration: none;
+        color: color(primary);
+        padding: 5px 10px;
+
+        &.active {
+            color: color(accent);
+        }
+    }
+}

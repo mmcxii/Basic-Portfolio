@@ -1,4 +1,4 @@
-/* BASE */
+/* Base */
 * {
   margin: 0;
   padding: 0;
@@ -11,23 +11,15 @@ html {
 }
 
 body {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #777;
   background-image: url(/assets/img/bg_tile.png);
   background-repeat: repeat;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777;
   font-size: 16px;
   line-height: 30px;
   min-height: 100%;
   position: relative;
   padding-bottom: 115px;
-}
-
-header {
-  background: #fff;
-  height: 100px;
-  line-height: 100px;
-  margin-bottom: 40px;
-  border-bottom: #ccc 2px solid;
 }
 
 h1,
@@ -38,14 +30,29 @@ h3 {
 
 h2 {
   color: #4aaaa5;
-  margin-bottom: 20px;
 }
 
-hr {
-  background-color: #ddd;
-  height: 2px;
-  border: none;
-  margin-bottom: 20px;
+/* Layout */
+.container {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header {
+  background: #fff;
+  height: 100px;
+  line-height: 100px;
+  margin-bottom: 40px;
+  border-bottom: #ccc 2px solid;
 }
 
 .navbar {
@@ -87,26 +94,22 @@ footer {
   right: 0;
 }
 
-/* LAYOUT */
-.container {
-  width: 80%;
-  max-width: 960px;
-  margin: 0 auto;
+/* Components */
+hr {
+  background-color: #ddd;
+  height: 2px;
+  border: none;
+  margin-bottom: 20px;
 }
 
-.clearfix {
-  clear: both;
-}
-
-.text-center {
-  text-align: center;
-}
-
-/* MODULE */
 .card {
   background: #fff;
   padding: 30px;
   border: #ddd 1px solid;
+}
+
+.card h2 {
+  margin-bottom: 20px;
 }
 
 .logo {
