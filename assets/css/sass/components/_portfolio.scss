@@ -22,12 +22,12 @@
                 text-decoration: none;
             }
         }
-    }
 
-    $thumbs: (hangman, rpg, trivia, infowidget, roshambo);
-    @each $thumb in $thumbs {
-        .#{$thumb} {
-            background: url(../img/portfolio-thumbnails/#{$thumb}.jpg);
+        $thumbs: (hangman, rpg, trivia, infowidget, roshambo);
+        @each $thumb in $thumbs {
+            &.#{$thumb} {
+                background: url(../img/portfolio-thumbnails/#{$thumb}.jpg);
+            }
         }
     }
 }

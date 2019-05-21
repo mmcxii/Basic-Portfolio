@@ -192,22 +192,22 @@ hr {
   text-decoration: none;
 }
 
-.portfolio .hangman {
+.portfolio-item.hangman {
   background: url(../img/portfolio-thumbnails/hangman.jpg);
 }
 
-.portfolio .rpg {
+.portfolio-item.rpg {
   background: url(../img/portfolio-thumbnails/rpg.jpg);
 }
 
-.portfolio .trivia {
+.portfolio-item.trivia {
   background: url(../img/portfolio-thumbnails/trivia.jpg);
 }
 
-.portfolio .infowidget {
+.portfolio-item.infowidget {
   background: url(../img/portfolio-thumbnails/infowidget.jpg);
 }
 
-.portfolio .roshambo {
+.portfolio-item.roshambo {
   background: url(../img/portfolio-thumbnails/roshambo.jpg);
 }
