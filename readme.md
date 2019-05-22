@@ -2,7 +2,7 @@
 
 ## Live Site
 
-https://mmcxii.github.io/Basic-Portfolio/
+https://mmcxii.github.io/basic-portfolio/
 
 ### Description
 
