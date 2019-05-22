@@ -4,9 +4,11 @@
 
     &-item {
         display: inline;
+        text-align: center;
 
         &:not(:last-child) {
             border-right: color(primary) 1px solid;
+            padding-left: 1px;
         }
     }
 
