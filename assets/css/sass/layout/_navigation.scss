@@ -17,6 +17,7 @@
         text-decoration: none;
         color: color(primary);
         padding: 5px 10px;
+        transition: 300ms;
 
         &.active {
             color: color(accent);
@@ -25,11 +26,11 @@
 
     &:hover &-link:not(.active) {
         opacity: 0.5;
-        transition: 200ms;
+        transition: 300ms;
 
         &:hover {
             opacity: 1;
-            transition: 200ms;
+            transition: 300ms;
         }
     }
 }

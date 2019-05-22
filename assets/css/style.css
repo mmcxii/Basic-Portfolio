@@ -76,6 +76,8 @@ header {
   text-decoration: none;
   color: #777;
   padding: 5px 10px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
 }
 
 .navbar-link.active {
@@ -84,14 +86,14 @@ header {
 
 .navbar:hover .navbar-link:not(.active) {
   opacity: 0.5;
-  -webkit-transition: 200ms;
-  transition: 200ms;
+  -webkit-transition: 300ms;
+  transition: 300ms;
 }
 
 .navbar:hover .navbar-link:not(.active):hover {
   opacity: 1;
-  -webkit-transition: 200ms;
-  transition: 200ms;
+  -webkit-transition: 300ms;
+  transition: 300ms;
 }
 
 footer {
