@@ -62,11 +62,10 @@ header {
 
 .navbar-item {
   display: inline;
-  border-right: #777 1px solid;
 }
 
-.navbar-item:last-child {
-  border-right: none;
+.navbar-item:not(:last-child) {
+  border-right: #777 1px solid;
 }
 
 .navbar-link {
@@ -78,6 +77,10 @@ header {
 
 .navbar-link.active {
   color: #4aaaa5;
+}
+
+.navbar-link:hover:not(.active) {
+  color: #69beb9;
 }
 
 footer {

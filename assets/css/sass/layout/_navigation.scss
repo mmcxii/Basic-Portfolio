@@ -4,10 +4,9 @@
 
     &-item {
         display: inline;
-        border-right: color(primary) 1px solid;
 
-        &:last-child {
-            border-right: none;
+        &:not(:last-child) {
+            border-right: color(primary) 1px solid;
         }
     }
 
@@ -19,6 +18,10 @@
 
         &.active {
             color: color(accent);
+        }
+
+        &:hover:not(.active) {
+            color: lighten(color(accent), 10);
         }
     }
 }
