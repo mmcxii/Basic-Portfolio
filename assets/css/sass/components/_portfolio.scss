@@ -27,6 +27,7 @@
         @each $thumb in $thumbs {
             &.#{$thumb} {
                 background: url(../img/portfolio-thumbnails/#{$thumb}.jpg);
+                border: color(lighter_grey) 1px solid;
             }
         }
     }
