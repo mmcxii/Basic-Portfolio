@@ -82,8 +82,16 @@ header {
   color: #4aaaa5;
 }
 
-.navbar-link:hover:not(.active) {
-  color: #69beb9;
+.navbar:hover .navbar-link:not(.active) {
+  opacity: 0.5;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.navbar:hover .navbar-link:not(.active):hover {
+  opacity: 1;
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 
 footer {
