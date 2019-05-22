@@ -180,6 +180,7 @@ hr {
   height: 200px;
   width: 250px;
   margin: 20px;
+  border: #ddd 1px solid;
 }
 
 .portfolio-item-caption {
@@ -200,25 +201,20 @@ hr {
 
 .portfolio-item.hangman {
   background: url(../img/portfolio-thumbnails/hangman.jpg);
-  border: #ddd 1px solid;
 }
 
 .portfolio-item.rpg {
   background: url(../img/portfolio-thumbnails/rpg.jpg);
-  border: #ddd 1px solid;
 }
 
 .portfolio-item.trivia {
   background: url(../img/portfolio-thumbnails/trivia.jpg);
-  border: #ddd 1px solid;
 }
 
 .portfolio-item.infowidget {
   background: url(../img/portfolio-thumbnails/infowidget.jpg);
-  border: #ddd 1px solid;
 }
 
 .portfolio-item.roshambo {
   background: url(../img/portfolio-thumbnails/roshambo.jpg);
-  border: #ddd 1px solid;
 }
